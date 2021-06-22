@@ -1,7 +1,7 @@
 # Mock --npm-docs
 This a makeshift npm docs and get started website for npm.
 Made with html, css and includes javascript for dynamic text replacement. 
-Inspired by a Brad Traversy tutorial which I turned into a mock npm site!
+Inspired by a Brad Traversy tutorial which I turned into a mock npm site! I enjoyed working on this because I learned how to style my html and use grids, flex and postioning elements in a way that showcased text and documentation over more elaborate details or iamges. This was a great learning experience and I'll continue to work on my basic html and css skills! 
 Live Demo here: https://nervous-darwin-0d7cfd.netlify.app/
 
 
