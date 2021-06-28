@@ -16,7 +16,7 @@ const changeText = () => {
   }, 400); // time to allow opacity to hit 0 before changing word
 }
 
-const randNum = (num, max) => {
+const randomNum = (num, max) => {
   let i = Math.floor(Math.random() * max);
   
   // ensure diff num every time
