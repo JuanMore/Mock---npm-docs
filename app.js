@@ -1,6 +1,6 @@
-let i = 0;
+let x = 0;
 
-const randomizeText = () => {
+const changeText = () => {
   const phrase = document.querySelector('.npm_text');
   const compStyles = window.getComputedStyle(phrase);
   const animation = compStyles.getPropertyValue('animation');
@@ -8,22 +8,22 @@ const randomizeText = () => {
   
   const phrases = ['Needle Pinpointing Machine', 'Never Paint Mohawks', 'No Problemo Muchacho', 'Niceably Playful Monkeys', 'Neolithic Programming Machine', 'Nuclearly Potent Moonshine', 'Neatly Packaged Magic'];
   
-  i = randomNum(i, phrases.length);
-  const newPhrase = phrases[i];
+  x = randomNum(x, phrases.length);
+  const newPhrase = phrases[x];
   
   setTimeout(() => {
     phrase.textContent = newPhrase;
   }, 400); // time to allow opacity to hit 0 before changing word
 }
 
-const randomNum = (num, max) => {
-  let j = Math.floor(Math.random() * max);
+const randNum = (num, max) => {
+  let i = Math.floor(Math.random() * max);
   
   // ensure diff num every time
-  if (num === j) {
-    return randomNum(i, max);
+  if (num === i) {
+    return randomNum(x, max);
   } else {
-    return j;
+    return i;
   }
 }
 
@@ -43,6 +43,7 @@ const getAnimationTime = () => {
   return animationTime;
 }
 
-randomizeText();
-setInterval(randomizeText, getAnimationTime());
-// credit Jeremy https://codepen.io/thefewunshaken
+changeText();
+setInterval(changeText, getAnimationTime());
+
+
