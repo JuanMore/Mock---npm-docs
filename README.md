@@ -3,7 +3,7 @@ This a makeshift npm docs and get started website for npm.
 Made with html, css and includes javascript for dynamic text replacement. 
 Inspired by a Brad Traversy tutorial which I turned into a mock npm site! I enjoyed working on this because I enjoy practing grids, flex and media queries in a way that showcased text and documentation over more elaborate details or images. This was a great learning experience and I'll continue to work on my basic html and css skills! 
 
-Live Demo here: https://nervous-darwin-0d7cfd.netlify.app/
+Live Demo here: https://npmdocu.netlify.app/
 
 
 ![img_1](https://user-images.githubusercontent.com/20747118/122875061-a2c50a80-d2e8-11eb-82e1-6b11580ab73a.JPG)
