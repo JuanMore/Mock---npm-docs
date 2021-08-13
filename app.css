@@ -66,6 +66,7 @@ code, pre {
   color: #ffffff;
   letter-spacing: 3px;
   width: auto;
+  overflow: hidden;
 /*   transition: all 1.25s; */
   animation: slidedown 4s infinite;
   -webkit-animation: slidedown 4s infinite;
