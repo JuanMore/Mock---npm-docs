@@ -425,12 +425,8 @@ code, pre {
     }
     
     .npm_text {
-    display: inline-block;
-  text-transform: uppercase;
-  color: #ffffff;
-  letter-spacing: 1px;
   width: auto;
-        margin-top: 10px;
+        margin-top: 20px;
   overflow: hidden;
 /*   transition: all 1.25s; */
   animation: slidedown 4s infinite;
