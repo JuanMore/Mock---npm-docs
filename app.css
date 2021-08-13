@@ -61,7 +61,7 @@ code, pre {
 
 /* npm text chnage */
 .npm_text {
-    display: inline-block;
+    display: flex;
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: 3px;
