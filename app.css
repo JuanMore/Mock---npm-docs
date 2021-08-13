@@ -423,4 +423,18 @@ code, pre {
         padding: 10px;
         background-color: rgba(0,0,0,0.1);
     }
+    
+    .npm_text {
+    display: inline-block;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 1px;
+  width: auto;
+        margin-top: 10px;
+  overflow: hidden;
+/*   transition: all 1.25s; */
+  animation: slidedown 4s infinite;
+  -webkit-animation: slidedown 4s infinite;
+  -moz-animation: slidedown 4s infinite;
+}
 }
