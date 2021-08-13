@@ -425,12 +425,6 @@ code, pre {
     }
     
     .npm_text {
-  width: auto;
-        margin-top: 20px;
-  overflow: hidden;
-/*   transition: all 1.25s; */
-  animation: slidedown 4s infinite;
-  -webkit-animation: slidedown 4s infinite;
-  -moz-animation: slidedown 4s infinite;
+        display: none;
 }
 }
