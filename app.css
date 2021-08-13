@@ -62,6 +62,7 @@ code, pre {
 /* npm text chnage */
 .npm_text {
     display: flex;
+    flex-direction: column;
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: 3px;
