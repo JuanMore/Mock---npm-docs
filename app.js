@@ -1,3 +1,5 @@
+//  Credit to: https://codepen.io/thefewunshaken/pen/BEBYLd
+
 let x = 0;
 
 const changeText = () => {
